@@ -25,7 +25,7 @@ const NavBar = (props) => {
       <Link to='/' className='link btn btn-info'>HOME</Link>
       <Link to='/login' className='link btn btn-warning'>LOGIN</Link>
       <Link to='/signup' className='link btn btn-danger'>SIGNUP</Link>
-      <p>Please sign in...</p>
+      <p style={{color: "white"}}>Please sign in...</p>
     </MainContainer>;
 
   return (
